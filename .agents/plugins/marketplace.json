@@ -1,0 +1,20 @@
+{
+  "name": "codex-stitch-designer",
+  "interface": {
+    "displayName": "Codex Stitch Designer"
+  },
+  "plugins": [
+    {
+      "name": "stitch-designer",
+      "source": {
+        "source": "local",
+        "path": "./plugins/stitch-designer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Design"
+    }
+  ]
+}

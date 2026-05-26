@@ -1,0 +1,41 @@
+{
+  "name": "stitch-designer",
+  "version": "0.1.0",
+  "description": "Design high-quality screens with Google Stitch MCP from Codex.",
+  "author": {
+    "name": "Ala Ben Khlifa",
+    "url": "https://github.com/alabenkhlifa"
+  },
+  "homepage": "https://github.com/alabenkhlifa/codex-stitch-designer",
+  "repository": "https://github.com/alabenkhlifa/codex-stitch-designer",
+  "license": "MIT",
+  "keywords": [
+    "stitch",
+    "google-stitch",
+    "mcp",
+    "design",
+    "frontend",
+    "ui"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Stitch Designer",
+    "shortDescription": "Generate and refine Stitch UI designs from Codex",
+    "longDescription": "Context-aware design workflow for Google Stitch MCP. Helps Codex choose whether to reuse or create Stitch projects, write strong mobile/web/dashboard/game prompts, generate variants, critique results, and produce implementation handoffs.",
+    "developerName": "Ala Ben Khlifa",
+    "category": "Design",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/alabenkhlifa/codex-stitch-designer",
+    "privacyPolicyURL": "https://github.com/alabenkhlifa/codex-stitch-designer",
+    "termsOfServiceURL": "https://github.com/alabenkhlifa/codex-stitch-designer",
+    "brandColor": "#7C3AED",
+    "defaultPrompt": [
+      "Create a mobile screen in Stitch matching my app style",
+      "Generate dashboard variants with Stitch",
+      "Critique this Stitch screen and refine it"
+    ]
+  }
+}

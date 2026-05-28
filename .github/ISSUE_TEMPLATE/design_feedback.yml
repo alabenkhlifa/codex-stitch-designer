@@ -1,0 +1,30 @@
+name: Design feedback
+description: Share feedback from using the plugin on real UI design work
+title: "design: "
+labels:
+  - design-feedback
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Project context
+      description: What kind of product or screen were you designing?
+    validations:
+      required: true
+  - type: textarea
+    id: prompt
+    attributes:
+      label: Prompt used
+      description: Paste the prompt or summarize the request.
+      render: text
+  - type: textarea
+    id: result
+    attributes:
+      label: Result feedback
+      description: What worked? What did not?
+    validations:
+      required: true
+  - type: textarea
+    id: improvement
+    attributes:
+      label: Suggested improvement

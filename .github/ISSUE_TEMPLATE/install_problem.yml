@@ -1,0 +1,33 @@
+name: Install problem
+description: Get help with marketplace or plugin installation
+title: "install: "
+labels:
+  - install
+body:
+  - type: textarea
+    id: command
+    attributes:
+      label: Command used
+      render: shell
+      placeholder: |
+        codex plugin marketplace add ...
+        codex plugin add ...
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Output
+      render: text
+    validations:
+      required: true
+  - type: input
+    id: codex-version
+    attributes:
+      label: Codex version
+      placeholder: codex --version
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment notes
+      description: OS, shell, and whether Stitch MCP is configured.

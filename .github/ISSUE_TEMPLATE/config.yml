@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Google Stitch MCP setup docs
+    url: https://stitch.withgoogle.com/docs/mcp/setup
+    about: Use this for official Stitch MCP setup instructions.

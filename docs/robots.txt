@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://alabenkhlifa.github.io/codex-stitch-designer/sitemap.xml

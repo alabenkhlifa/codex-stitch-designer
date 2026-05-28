@@ -25,8 +25,8 @@ Add this repository as a Codex plugin marketplace:
 
 ```bash
 codex plugin marketplace add https://github.com/alabenkhlifa/codex-stitch-designer.git
-codex plugin list --source codex-stitch-designer
-codex plugin install stitch-designer --source codex-stitch-designer
+codex plugin list --marketplace codex-stitch-designer
+codex plugin add stitch-designer@codex-stitch-designer
 ```
 
 If your Codex client requires sparse paths, use:

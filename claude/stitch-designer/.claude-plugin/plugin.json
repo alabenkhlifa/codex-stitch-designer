@@ -1,0 +1,19 @@
+{
+  "name": "stitch-designer",
+  "version": "0.1.0",
+  "description": "Design high-quality UI screens with Google Stitch MCP from Claude Code.",
+  "author": {
+    "name": "Ala Ben Khlifa"
+  },
+  "homepage": "https://github.com/alabenkhlifa/codex-stitch-designer",
+  "repository": "https://github.com/alabenkhlifa/codex-stitch-designer",
+  "license": "MIT",
+  "keywords": [
+    "google-stitch",
+    "stitch-mcp",
+    "ui-design",
+    "frontend-design",
+    "design-system",
+    "claude-code"
+  ]
+}

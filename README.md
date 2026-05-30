@@ -1,10 +1,10 @@
 # Codex Stitch Designer
 
-Codex Stitch Designer is a Codex plugin for designing high-quality UI screens with Google Stitch MCP.
+Codex Stitch Designer is a Codex and Claude Code plugin package for designing high-quality UI screens with Google Stitch MCP.
 
-It helps Codex act like a practical product designer for Stitch: pick or create the right Stitch project, inspect existing screens and design systems, write strong prompts, generate variants, critique output, and prepare implementation handoffs.
+It helps an AI coding assistant act like a practical product designer for Stitch: pick or create the right Stitch project, inspect existing screens and design systems, write strong prompts, generate variants, critique output, and prepare implementation handoffs.
 
-Keywords: Codex plugin, Google Stitch, Stitch MCP, UI design, frontend design, design systems, AI design workflow.
+Keywords: Codex plugin, Claude Code plugin, Google Stitch, Stitch MCP, UI design, frontend design, design systems, AI design workflow.
 
 ## Why Use It
 
@@ -18,7 +18,7 @@ Keywords: Codex plugin, Google Stitch, Stitch MCP, UI design, frontend design, d
 
 ## Good Fit
 
-Use this plugin when you want Codex to:
+Use this plugin when you want Codex or Claude Code to:
 
 - create new Stitch screens from a product brief
 - match the design language of an existing Stitch project
@@ -27,14 +27,17 @@ Use this plugin when you want Codex to:
 - review a Stitch result before implementation
 - produce a clean frontend implementation handoff
 
+The Claude Code package ships the same design workflow as a Claude plugin with a skill and a subagent.
+
 ## Requirements
 
 - Codex with plugin support
-- Google Stitch MCP configured and available in the Codex session
+- Claude Code with plugin support, if you use the Claude package
+- Google Stitch MCP configured and available in your assistant session
 - A Stitch API key and MCP setup from the official docs:
   <https://stitch.withgoogle.com/docs/mcp/setup>
 
-## Install From This Marketplace
+## Install For Codex
 
 Add this repository as a Codex plugin marketplace:
 
@@ -53,9 +56,29 @@ codex plugin marketplace add \
   --sparse 'plugins'
 ```
 
+## Install For Claude Code
+
+Add this repository as a Claude Code plugin marketplace:
+
+```bash
+claude plugin marketplace add alabenkhlifa/codex-stitch-designer
+claude plugin install stitch-designer@stitch-designer
+```
+
+For a local development checkout, validate and install from the repo path:
+
+```bash
+claude plugin validate .
+claude plugin validate ./claude/stitch-designer
+claude plugin marketplace add ./
+claude plugin install stitch-designer@stitch-designer
+```
+
+The Claude package is isolated under `claude/stitch-designer/`, so it does not change the Codex plugin files.
+
 ## Usage
 
-Ask Codex to use the Stitch Designer plugin:
+Ask Codex or Claude Code to use the Stitch Designer plugin:
 
 ```text
 Use stitch-designer to create a mobile onboarding screen in Stitch.
@@ -128,16 +151,20 @@ Discussions:
 - It does not configure your Stitch MCP server for you.
 - It does not turn Stitch output into production code unless you ask for a separate implementation step.
 - It does not create persistent Stitch projects without your confirmation.
-- It does not replace product design judgment. It gives Codex a better workflow for using Stitch.
+- It does not replace product design judgment. It gives your assistant a better workflow for using Stitch.
 
 ## Repository Layout
 
 ```text
 .agents/plugins/marketplace.json
+.claude-plugin/marketplace.json
 plugins/stitch-designer/.codex-plugin/plugin.json
 plugins/stitch-designer/skills/stitch-designer/SKILL.md
 plugins/stitch-designer/agents/stitch-designer.toml
 plugins/stitch-designer/examples/
+claude/stitch-designer/.claude-plugin/plugin.json
+claude/stitch-designer/skills/stitch-designer/SKILL.md
+claude/stitch-designer/agents/stitch-designer.md
 ```
 
 ## Troubleshooting

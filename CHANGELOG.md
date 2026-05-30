@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+- Added a Claude Code marketplace manifest and plugin package.
+- Added a Claude Code `stitch-designer` skill and subagent that mirror the Codex Stitch workflow.
+- Documented separate Codex and Claude Code install commands.
+
 ## 0.1.0 - 2026-05-28
 
 - Initial Codex plugin marketplace package.

@@ -10,12 +10,17 @@
   "repository": "https://github.com/alabenkhlifa/codex-stitch-designer",
   "license": "MIT",
   "keywords": [
-    "stitch",
+    "codex-plugin",
     "google-stitch",
+    "stitch-mcp",
     "mcp",
-    "design",
-    "frontend",
-    "ui"
+    "ui-design",
+    "ux-design",
+    "frontend-design",
+    "product-design",
+    "design-system",
+    "ai-design",
+    "ai-design-assistant"
   ],
   "skills": "./skills/",
   "interface": {

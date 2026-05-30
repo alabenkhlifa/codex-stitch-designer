@@ -9,11 +9,19 @@
   "repository": "https://github.com/alabenkhlifa/codex-stitch-designer",
   "license": "MIT",
   "keywords": [
+    "claude-code",
+    "claude-plugin",
+    "claude-skills",
+    "claude-agents",
     "google-stitch",
     "stitch-mcp",
+    "mcp",
     "ui-design",
+    "ux-design",
     "frontend-design",
+    "product-design",
     "design-system",
-    "claude-code"
+    "ai-design",
+    "ai-design-assistant"
   ]
 }

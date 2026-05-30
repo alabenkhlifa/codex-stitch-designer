@@ -1,10 +1,12 @@
 # Codex Stitch Designer
 
+GitHub Pages: <https://alabenkhlifa.github.io/codex-stitch-designer/>
+
 Codex Stitch Designer is a Codex and Claude Code plugin package for designing high-quality UI screens with Google Stitch MCP.
 
 It helps an AI coding assistant act like a practical product designer for Stitch: pick or create the right Stitch project, inspect existing screens and design systems, write strong prompts, generate variants, critique output, and prepare implementation handoffs.
 
-Keywords: Codex plugin, Claude Code plugin, Google Stitch, Stitch MCP, UI design, frontend design, design systems, AI design workflow.
+Keywords: Codex plugin, Claude Code plugin, Claude plugin, Claude skills, Claude agents, Google Stitch, Stitch MCP, MCP design tool, UI design, UX design, frontend design, product design, design systems, AI design workflow, AI design assistant.
 
 ## Why Use It
 
@@ -130,7 +132,7 @@ Feedback is welcome.
 
 - Open an issue for install problems, MCP workflow bugs, or unclear behavior.
 - Open a discussion or issue for design workflow ideas, prompt improvements, and examples from real projects.
-- Include your Codex version, install command, Stitch project shape, and screenshots when relevant.
+- Include your Codex or Claude Code version, install command, Stitch project shape, and screenshots when relevant.
 
 Issue tracker:
 <https://github.com/alabenkhlifa/codex-stitch-designer/issues>
@@ -169,7 +171,7 @@ claude/stitch-designer/agents/stitch-designer.md
 
 ## Troubleshooting
 
-- If Stitch tools are missing, verify your MCP setup and restart/reload Codex.
+- If Stitch tools are missing, verify your MCP setup and restart/reload your assistant.
 - If the plugin installs but the skill is not visible, reload plugins or restart the client.
 - If Stitch generation times out, inspect the project before retrying; the operation may have completed.
 - If project matching is ambiguous, provide the Stitch project ID directly.
